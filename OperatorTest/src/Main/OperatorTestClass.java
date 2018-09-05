@@ -71,12 +71,7 @@ public class OperatorTestClass {
 		// TODO Auto-generated method stub
 		return operand1 ^ operand2;
 	}
-
-	public int bitNot(int operand1) {
-		// TODO Auto-generated method stub
-		return ~ operand1;
-	}	
-
+		
 	public boolean shortCircuitAnd(boolean operand1, boolean operand2) {
 		// TODO Auto-generated method stub
 		return operand1 && operand2;
@@ -86,9 +81,31 @@ public class OperatorTestClass {
 		// TODO Auto-generated method stub
 		return operand1 || operand2;
 	}
-
+	public int  bitNot(int operand1){
+ 		return ~operand1;
+ 	}
+ 	public int  bitAnd(int operand1,int operand2){
+ 		return operand1 & operand2;
+ 	}
+ 	public int bitOr(int operand1, int operand2) {
+		return operand1 | operand2;
+	}
+ 	public int bitExOr(int operand1, int operand2) {
+		
+		return operand1 ^ operand2;
+	}
+ 	public int bitShiftRightZero(int operand1) {
 	
-
+		return operand1>>1;
+	}
+ 	public int bitShiftLeft(int operand1) {
 	
+		return operand1<<1;
+	}
+
+	public int bitShiftRight(int operand1){
+		
+        return operand1>>1;
+	}
 
 }

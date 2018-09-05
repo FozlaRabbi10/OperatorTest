@@ -41,6 +41,17 @@ class OperatorTestUnitTest {
 		
 		//fail("Not yet implemented");
 	}
+	@Test
+	public void OperatorTestUnitTestBitwise() {
+		assertEquals(-3,oT.bitNot(2));
+		assertEquals(4,oT.bitAnd(5, 6));
+		assertEquals(7,oT.bitOr(5, 6));
+		assertEquals(3,oT.bitExOr(5, 6));
+		assertEquals(6,oT.bitShiftRight(12));
+		assertEquals(6,oT.bitShiftRightZero(12));
+		assertEquals(12,oT.bitShiftLeft(6));
+		
+	}
 	
 
 }
