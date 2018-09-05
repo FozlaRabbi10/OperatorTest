@@ -52,6 +52,36 @@ public class OperatorTestClass {
 		return operand1 < operand2;
 	}
 
+	public boolean logicalNot(boolean operand1 ) {
+		// TODO Auto-generated method stub
+		return ! operand1;
+	}
+
+	public boolean logicalAnd(boolean operand1, boolean operand2) {
+		// TODO Auto-generated method stub
+		return operand1 && operand2;
+	}
+
+	public boolean logicalOr(boolean operand1, boolean operand2) {
+		// TODO Auto-generated method stub
+		return operand1 || operand2;
+	}
+
+	public boolean logicalExOr(boolean operand1, boolean operand2) {
+		// TODO Auto-generated method stub
+		return operand1 ^ operand2;
+	}
+
+	/*public boolean shortCircuitAnd(boolean operand1, boolean operand2) {
+		// TODO Auto-generated method stub
+		return ;
+	}
+
+	public Object shortCircuitOr(boolean b, boolean c) {
+		// TODO Auto-generated method stub
+		return null;
+	}*/
+
 	
 
 	
