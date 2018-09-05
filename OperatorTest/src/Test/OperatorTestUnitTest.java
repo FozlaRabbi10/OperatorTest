@@ -13,6 +13,9 @@ class OperatorTestUnitTest {
 	void test() {
 		assertEquals(5,oT.addition(2,3),"");
 		assertEquals(5,oT.subtraction(7,2),"");
+		assertEquals(4.0,oT.division(12,3),"");
+		assertEquals(6,oT.multiplication(2,3),"");
+		assertEquals(5,oT.modulus(12,7),"");
 		
 	}
 
