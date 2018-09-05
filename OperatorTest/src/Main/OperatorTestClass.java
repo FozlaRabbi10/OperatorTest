@@ -27,6 +27,33 @@ public class OperatorTestClass {
 		return operand1 % operand2;
 	}
 
+	public boolean equalTo(int operand1, int operand2) {
+		// TODO Auto-generated method stub
+		return operand1 == operand2;
+	}
+
+	public boolean notEqualTo(int operand1, int operand2) {
+		// TODO Auto-generated method stub
+		return operand1 != operand2;
+	}
+
+	public boolean greaterThan(int operand1, int operand2) {
+		// TODO Auto-generated method stub
+		return operand1 > operand2;
+	}
+
+	public boolean greaterThanOrEqual(int operand1, int operand2) {
+		// TODO Auto-generated method stub
+		return operand1 >= operand2;
+	}
+
+	public boolean lessThan(int operand1, int operand2) {
+		// TODO Auto-generated method stub
+		return operand1 < operand2;
+	}
+
+	
+
 	
 
 }
