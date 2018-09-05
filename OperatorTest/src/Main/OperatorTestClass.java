@@ -72,15 +72,20 @@ public class OperatorTestClass {
 		return operand1 ^ operand2;
 	}
 
-	/*public boolean shortCircuitAnd(boolean operand1, boolean operand2) {
+	public int bitNot(int operand1) {
 		// TODO Auto-generated method stub
-		return ;
+		return ~ operand1;
+	}	
+
+	public boolean shortCircuitAnd(boolean operand1, boolean operand2) {
+		// TODO Auto-generated method stub
+		return operand1 && operand2;
 	}
 
-	public Object shortCircuitOr(boolean b, boolean c) {
+	public boolean shortCircuitOr(boolean operand1, boolean operand2) {
 		// TODO Auto-generated method stub
-		return null;
-	}*/
+		return operand1 || operand2;
+	}
 
 	
 

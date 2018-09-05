@@ -36,10 +36,11 @@ class OperatorTestUnitTest {
 		assertEquals(true,oT.logicalAnd(true, true),"");
 		assertEquals(true,oT.logicalOr(true, false),"");
 		assertEquals(true,oT.logicalExOr(true, false),"");
-		/*assertEquals(false,oT.shortCircuitAnd(true, false),"");
-		assertEquals(false,oT.shortCircuitOr(true, false),"");*/
+		assertEquals(false,oT.shortCircuitAnd(true, false),"");
+		assertEquals(true,oT.shortCircuitOr(true, false),"");
 		
 		//fail("Not yet implemented");
 	}
+	
 
 }
